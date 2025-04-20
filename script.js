@@ -32,7 +32,7 @@ function mostrarProductos(productos) {
     <h3>${p.nombre}</h3>
     <p>${p.precio}</p>
 <a class="boton-whatsapp" target="_blank"
-   href="https://wa.me/5217658396857?text=${encodeURIComponent(`Hola! Estoy interesad@ en ${p.nombre}, su precio es ${p.precio}`)}">
+   href="https://wa.me/5217658396857?text=${encodeURIComponent(`Hola! Estoy interesad@ en ${p.nombre}, su precio es ${p.precio},  ${location.origin}`)}">
    Apartar por WhatsApp
 </a>
 
