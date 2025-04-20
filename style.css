@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #ff69b4, #87cefa);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  height: 120px; /* antes era 60px */
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 1px;
+
+  /* Animación de rebote y brillito */
+  animation: logoBounce 3s ease-in-out infinite;
+}
+
+nav {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+nav button {
+  margin: 0.3rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav button.activo,
+nav button:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.producto {
+  background: #f3f0f3;
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  max-width: 300px;
+  margin: 0 auto;
+
+  /* Animación al aparecer */
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.producto:hover {
+  transform: scale(1.03);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  object-fit: cover;
+}
+
+.boton-whatsapp {
+  margin-top: 0.5rem;
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.boton-whatsapp:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #25d366;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff69b4;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* === Animaciones === */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes logoBounce {
+  0%, 100% {
+    transform: translateY(0);
+    filter: drop-shadow(0 0 5px white);
+  }
+  50% {
+    transform: translateY(-5px);
+    filter: drop-shadow(0 0 15px #ffffffaa);
+  }
+}
+
+/* Modal para ver imagen ampliada */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contenido {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px white;
+}

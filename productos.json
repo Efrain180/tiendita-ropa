@@ -1,0 +1,83 @@
+[
+    {
+      "nombre": "Blusa Morada ",
+      "precio": "$150",
+      "imagen": "img/blusas/blusa-morada.jpg",
+      "categoria": "blusas"
+    },
+    {
+        "nombre": "Blusas Señora ",
+        "precio": "$150",
+        "imagen": "img/blusas/blusas-señoras.jpg",
+        "categoria": "blusas"
+    },
+    {
+        "nombre": "Blusas Tirantes ",
+        "precio": "$150",
+        "imagen": "img/blusas/blusas-tirantes.jpg",
+        "categoria": "blusas"
+    },
+    {
+        "nombre": "Pijamas ",
+        "precio": "$150",
+        "imagen": "img/blusas/pijamas.jpg",
+        "categoria": "blusas"
+    },
+    {
+        "nombre": "Playera Negra ",
+        "precio": "$150",
+        "imagen": "img/blusas/playera-negra.jpg",
+        "categoria": "blusas"
+    },
+    {
+      "nombre": "Blusa Negra con Rosas",
+      "precio": "$250",
+      "imagen": "img/blusas/blusa-nefra-rosas.jpg",
+      "categoria": "blusas"
+    },
+
+    {
+        "nombre": "Conjunto Niño",
+        "precio": "$200",
+        "imagen": "img/jeans/conjunto-niño.jpg",
+        "categoria": "jeans"
+    },
+    {
+        "nombre": "Falda Negra",
+        "precio": "$200",
+        "imagen": "img/jeans/falda-negra.jpg",
+        "categoria": "jeans"
+    },
+    {
+        "nombre": "Falda Verde",
+        "precio": "$200",
+        "imagen": "img/jeans/falda-verde.jpg",
+        "categoria": "jeans"
+    },
+    {
+        "nombre": "Pans niños",
+        "precio": "$200",
+        "imagen": "img/jeans/pans-niños.jpg",
+        "categoria": "jeans"
+    },
+    {
+        "nombre": "Pantalon Negro",
+        "precio": "$200",
+        "imagen": "img/jeans/pantalon-negro1.jpg",
+        "categoria": "jeans"
+    },
+    {
+        "nombre": "Pantalon Negro",
+        "precio": "$200",
+        "imagen": "img/jeans/pantalon-negro2.jpg",
+        "categoria": "jeans"
+    },
+
+    {
+      "nombre": "Sueter Azul",
+      "precio": "$320",
+      "imagen": "img/chamarras/sueter-azul.jpg",
+      "categoria": "chamarras"
+    }
+  ]
+  
