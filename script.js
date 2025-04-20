@@ -31,10 +31,11 @@ function mostrarProductos(productos) {
     <img src="${p.imagen}" alt="${p.nombre}" onclick="abrirModal(this)" />
     <h3>${p.nombre}</h3>
     <p>${p.precio}</p>
-    <a class="boton-whatsapp" target="_blank"
-       href="https://wa.me/5217658396857?text=Hola!%20Estoy%20interesad@%20en%20${encodeURIComponent(p.nombre)}">
-       Apartar por WhatsApp
-    </a>
+<a class="boton-whatsapp" target="_blank"
+   href="https://wa.me/5217658396857?text=${encodeURIComponent(`Hola! Estoy interesad@ en ${p.nombre}. Mira la imagen aquí: ${location.origin}/${p.imagen}`)}">
+   Apartar por WhatsApp
+</a>
+
   `;
   
     galeria.appendChild(card);
