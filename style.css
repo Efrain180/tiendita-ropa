@@ -60,9 +60,6 @@ main {
   max-width: 300px;
   margin: 0 auto;
 
-  /* Animación al aparecer */
-  animation: fadeInUp 0.8s ease forwards;
-  opacity: 0;
 }
 
 .producto:hover {
@@ -143,4 +140,74 @@ footer {
   max-height: 90%;
   border-radius: 10px;
   box-shadow: 0 0 20px white;
+}
+
+/* Botón de modo oscuro/claro */
+.modo-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.modo-toggle:hover {
+  transform: scale(1.2);
+}
+
+/* === MODO OSCURO === */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode header {
+  background: linear-gradient(90deg, #222, #333);
+  color: #fff;
+}
+
+body.dark-mode nav button {
+  background-color: #444;
+  color: white;
+}
+
+body.dark-mode nav button.activo,
+body.dark-mode nav button:hover {
+  background-color: #ff69b4;
+  color: black;
+}
+
+body.dark-mode .producto {
+  background: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+}
+
+body.dark-mode .boton-whatsapp {
+  background-color: #128c7e;
+}
+
+body.dark-mode footer {
+  background-color: #222;
+  color: #f1f1f1;
+}
+
+body.dark-mode .modal {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(270deg, #ff00ff, #00ffff, #ff00ff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorMove 5s linear infinite;
+}
+
+@keyframes colorMove {
+  0% { background-position: 0% center; }
+  100% { background-position: 100% center; }
 }

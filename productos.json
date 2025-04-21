@@ -3,81 +3,120 @@
       "nombre": "Blusa Morada ",
       "precio": "$150",
       "imagen": "img/blusas/blusa-morada.jpg",
-      "categoria": "blusas"
+      "categoria": "blusas",
+      "talla": "CH, M, G"
     },
     {
-        "nombre": "Blusas Señora ",
-        "precio": "$150",
-        "imagen": "img/blusas/blusas-señoras.jpg",
-        "categoria": "blusas"
+      "nombre": "Blusa Morada ",
+      "precio": "$150",
+      "imagen": "img/blusas/blusas.jpg",
+      "categoria": "blusas",
+      "talla": "CH, M, G"
     },
     {
-        "nombre": "Blusas Tirantes ",
-        "precio": "$150",
-        "imagen": "img/blusas/blusas-tirantes.jpg",
-        "categoria": "blusas"
+      "nombre": "Blusas Señora ",
+      "precio": "$150",
+      "imagen": "img/blusas/blusas-señoras.jpg",
+      "categoria": "blusas",
+      "talla": "EG, EEG"
     },
     {
-        "nombre": "Pijamas ",
-        "precio": "$150",
-        "imagen": "img/blusas/pijamas.jpg",
-        "categoria": "blusas"
+      "nombre": "Blusas Tirantes ",
+      "precio": "$150",
+      "imagen": "img/blusas/blusas-tirantes.jpg",
+      "categoria": "blusas",
+      "talla": "CH, M, G"
     },
     {
-        "nombre": "Playera Negra ",
-        "precio": "$150",
-        "imagen": "img/blusas/playera-negra.jpg",
-        "categoria": "blusas"
+      "nombre": "Playera Negra ",
+      "precio": "$150",
+      "imagen": "img/blusas/playera-negra.jpg",
+      "categoria": "blusas",
+      "talla": "CH, M, G"
     },
     {
       "nombre": "Blusa Negra con Rosas",
       "precio": "$250",
       "imagen": "img/blusas/blusa-nefra-rosas.jpg",
-      "categoria": "blusas"
-    },
-
-    {
-        "nombre": "Conjunto Niño",
-        "precio": "$200",
-        "imagen": "img/jeans/conjunto-niño.jpg",
-        "categoria": "jeans"
+      "categoria": "blusas",
+      "talla": "CH, M, G"
     },
     {
-        "nombre": "Falda Negra",
-        "precio": "$200",
-        "imagen": "img/jeans/falda-negra.jpg",
-        "categoria": "jeans"
+      "nombre": "Pijamas ",
+      "precio": "$150",
+      "imagen": "img/chamarras/pijamas.jpg",
+      "categoria": "chamarras",
+      "talla": "CH, M, G"
     },
-    {
-        "nombre": "Falda Verde",
-        "precio": "$200",
-        "imagen": "img/jeans/falda-verde.jpg",
-        "categoria": "jeans"
-    },
-    {
-        "nombre": "Pans niños",
-        "precio": "$200",
-        "imagen": "img/jeans/pans-niños.jpg",
-        "categoria": "jeans"
-    },
-    {
-        "nombre": "Pantalon Negro",
-        "precio": "$200",
-        "imagen": "img/jeans/pantalon-negro1.jpg",
-        "categoria": "jeans"
-    },
-    {
-        "nombre": "Pantalon Negro",
-        "precio": "$200",
-        "imagen": "img/jeans/pantalon-negro2.jpg",
-        "categoria": "jeans"
-    },
-
     {
       "nombre": "Sueter Azul",
       "precio": "$320",
       "imagen": "img/chamarras/sueter-azul.jpg",
-      "categoria": "chamarras"
+      "categoria": "chamarras",
+      "talla": "CH, M, G, EG"
+    },
+    {
+      "nombre": "Conjunto Niño",
+      "precio": "$200",
+      "imagen": "img/niños/conjunto-niño.jpg",
+      "categoria": "niños",
+      "talla": "2, 4, 6, 8"
+    },
+    {
+      "nombre": "Pans niños",
+      "precio": "$200",
+      "imagen": "img/niños/pans-niños.jpg",
+      "categoria": "niños",
+      "talla": "2, 4, 6, 8, 10"
+    },
+    {
+      "nombre": "Shorts niños",
+      "precio": "$200",
+      "imagen": "img/niños/shorts-niños.jpg",
+      "categoria": "niños",
+      "talla": "2, 4, 6, 8, 10"
+    },
+    {
+      "nombre": "Sabanas",
+      "precio": "$200",
+      "imagen": "img/sabanas/sabanas.jpg",
+      "categoria": "sabanas",
+      "talla": "Individual, Matrimonial, King Size"
+    },
+    {
+      "nombre": "Falda Negra",
+      "precio": "$200",
+      "imagen": "img/vestidos/falda-negra.jpg",
+      "categoria": "vestidos",
+      "talla": "CH, M, G"
+    },
+    {
+      "nombre": "Falda Verde",
+      "precio": "$200",
+      "imagen": "img/vestidos/falda-verde.jpg",
+      "categoria": "vestidos",
+      "talla": "CH, M, G"
+    },
+    {
+      "nombre": "Calcetines",
+      "precio": "$200",
+      "imagen": "img/accesorios/calcetines.jpg",
+      "categoria": "accesorios",
+      "talla": "Talla única"
+    },
+    {
+      "nombre": "Mandiles",
+      "precio": "$200",
+      "imagen": "img/accesorios/mandil.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Sombrillas",
+      "precio": "$200",
+      "imagen": "img/accesorios/sombrillas.jpg",
+      "categoria": "accesorios",
+      "talla": "Tamaño estándar"
     }
   ]
   

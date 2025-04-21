@@ -5,18 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>La Tiendita de Ropa</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
     <img src="img/logo.png" alt="Logo" class="logo" />
-    <h1>La Tiendita de Ropa</h1>
+    <h1 class="titulo">La Tiendita de Ropa</h1>
+    <button id="modo-toggle" class="modo-toggle">🌙</button>
   </header>
+  
 
   <nav>
     <button data-categoria="todos" class="activo">Todos</button>
+    <button data-categoria="niños">Niños</button>
     <button data-categoria="blusas">Blusas</button>
     <button data-categoria="jeans">Jeans</button>
-    <button data-categoria="chamarras">Chamarras</button>
+    <button data-categoria="vestidos">Vestidos</button>
+    <button data-categoria="shorts">Shorts</button>
+    <button data-categoria="chamarras">Sueteres</button>
+    <button data-categoria="sabanas">Sabanas</button>
+    <button data-categoria="accesorios">Accesorios</button>
+    
+
   </nav>
 
   <main id="galeria"></main>
@@ -30,6 +41,19 @@
     <img id="modal-img" class="modal-contenido" />
   </div>
 
-  <script src="script.js"></script>
+
+
+<!-- AOS JS (DEBE IR ANTES de tu script.js) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- TU SCRIPT -->
+<script src="script.js"></script>
+
+<!-- Inicializar AOS después de mostrar productos -->
+<script>
+  AOS.init();
+</script>
+
+
 </body>
 </html>
