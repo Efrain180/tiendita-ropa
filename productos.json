@@ -441,14 +441,14 @@
     },
     {
       "nombre": "Short Mezclilla ",
-      "precio": "$150",
+      "precio": "$180",
       "imagen": "img/shorts/short-mezclilla.webp",
       "categoria": "shorts",
       "talla": "37"
     },
     {
       "nombre": "Short Mezclilla ",
-      "precio": "$150",
+      "precio": "$180",
       "imagen": "img/shorts/short-negro-mezclilla.webp",
       "categoria": "shorts",
       "talla": "37"
@@ -642,7 +642,7 @@
     {
       "nombre": "Mandil",
       "precio": "$80",
-      "imagen": "img/accesorios/mandil1.webp",
+      "imagen": "img/accesorios/Mandil1.webp",
       "categoria": "accesorios",
       "talla": "Unitalla"
     },
