@@ -1,122 +1,799 @@
 [
     {
-      "nombre": "Blusa Morada ",
-      "precio": "$150",
+      "nombre": "Blusa Elegante",
+      "precio": "$180",
+      "imagen": "img/blusas/blusa-elegante.jpg",
+      "categoria": "blusas",
+      "talla": " M "
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$90",
+      "imagen": "img/blusas/blusa-blanca.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa de Cadena ",
+      "precio": "$90",
+      "imagen": "img/blusas/blusa-cadena.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$90",
+      "imagen": "img/blusas/blusa-cafe.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$90",
+      "imagen": "img/blusas/blusa-capi.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$90",
+      "imagen": "img/blusas/blusa-capi-2.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$120",
+      "imagen": "img/blusas/blusa-casual-1.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$120",
+      "imagen": "img/blusas/blusa-casual-2.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$120",
+      "imagen": "img/blusas/blusa-casual-3.jpg",
+      "categoria": "blusas",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Blusa Juvenil ",
+      "precio": "$90",
       "imagen": "img/blusas/blusa-morada.jpg",
       "categoria": "blusas",
-      "talla": "CH, M, G"
+      "talla": "Unitalla"
     },
     {
-      "nombre": "Blusa Morada ",
-      "precio": "$150",
-      "imagen": "img/blusas/blusas.jpg",
+      "nombre": "Blusa Juvenil ",
+      "precio": "$90",
+      "imagen": "img/blusas/blusa-roja.jpg",
       "categoria": "blusas",
-      "talla": "CH, M, G"
+      "talla": "Unitalla"
     },
+
     {
-      "nombre": "Blusas Señora ",
-      "precio": "$150",
-      "imagen": "img/blusas/blusas-señoras.jpg",
+      "nombre": "Blusa Dama ",
+      "precio": "$100",
+      "imagen": "img/blusas/blus-negra.jpg",
       "categoria": "blusas",
-      "talla": "EG, EEG"
+      "talla": "G"
     },
+
     {
-      "nombre": "Blusas Tirantes ",
-      "precio": "$150",
-      "imagen": "img/blusas/blusas-tirantes.jpg",
+      "nombre": "Bluson Playa ",
+      "precio": "$220",
+      "imagen": "img/blusas/bluson-playa.jpg",
       "categoria": "blusas",
-      "talla": "CH, M, G"
+      "talla": "M"
     },
+
     {
-      "nombre": "Playera Negra ",
-      "precio": "$150",
-      "imagen": "img/blusas/playera-negra.jpg",
+      "nombre": "Camiseta ",
+      "precio": "$60",
+      "imagen": "img/blusas/camiseta-dama-negro.jpg",
       "categoria": "blusas",
-      "talla": "CH, M, G"
+      "talla": "Unitalla"
+    },
+
+    {
+      "nombre": "Playera Dama ",
+      "precio": "$100",
+      "imagen": "img/blusas/playera-dama.jpg",
+      "categoria": "blusas",
+      "talla": "M"
+    },
+
+
+
+
+
+    {
+      "nombre": "Chalina Dama",
+      "precio": "$200",
+      "imagen": "img/chamarras/chalina-negra.jpg",
+      "categoria": "chamarras",
+      "talla": "Unitalla"
     },
     {
-      "nombre": "Blusa Negra con Rosas",
+      "nombre": "Sudadera Juvenil",
+      "precio": "$180",
+      "imagen": "img/chamarras/sudadera-juvenil.jpg",
+      "categoria": "chamarras",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Sueter Dama ",
+      "precio": "$180",
+      "imagen": "img/chamarras/sueter-azul-del.jpg",
+      "categoria": "chamarras",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Sueter Dama ",
+      "precio": "$180",
+      "imagen": "img/chamarras/Sueter-del.jpg",
+      "categoria": "chamarras",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Sueter Caliente",
+      "precio": "$220",
+      "imagen": "img/chamarras/sueter-peludo.jpg",
+      "categoria": "chamarras",
+      "talla": "M"
+    },
+    {
+      "nombre": "Sueter Caliente",
+      "precio": "$220",
+      "imagen": "img/chamarras/sueter-peludo-2.jpg",
+      "categoria": "chamarras",
+      "talla": "M"
+    },
+    {
+      "nombre": "Sueter Calado",
+      "precio": "$100",
+      "imagen": "img/chamarras/sueter-rosa.jpg",
+      "categoria": "chamarras",
+      "talla": "Unitalla"
+    },
+
+
+
+
+
+    {
+      "nombre": "Pans Dama",
+      "precio": "$180",
+      "imagen": "img/jeans/pans-dama-morado.jpg",
+      "categoria": "jeans",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pantalon Holgado",
+      "precio": "$200",
+      "imagen": "img/jeans/pantalon-holgado.jpg",
+      "categoria": "jeans",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pantalon Holgado",
+      "precio": "$200",
+      "imagen": "img/jeans/pantalon-holgado-2.jpg",
+      "categoria": "jeans",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pantalon Suprime",
+      "precio": "$220",
+      "imagen": "img/jeans/pantalon-mezclilla.jpg",
+      "categoria": "jeans",
+      "talla": "28"
+    },
+    {
+      "nombre": "Pantalon Suprime",
+      "precio": "$260",
+      "imagen": "img/jeans/pantalon-mezclilla-2.jpg",
+      "categoria": "jeans",
+      "talla": "5"
+    },
+    {
+      "nombre": "Pijama",
+      "precio": "$120",
+      "imagen": "img/jeans/pijama-micky.jpg",
+      "categoria": "jeans",
+      "talla": "G"
+    },
+    {
+      "nombre": "Pijama",
+      "precio": "$120",
+      "imagen": "img/jeans/pijama-sticht.jpg",
+      "categoria": "jeans",
+      "talla": "G"
+    },
+
+
+    {
+      "nombre": "Bermuda Niño",
+      "precio": "$65",
+      "imagen": "img/niños/bermuda1.jpg",
+      "categoria": "niños",
+      "talla": "6 años"
+    },
+    {
+      "nombre": "Bermuda Niño",
+      "precio": "$65",
+      "imagen": "img/niños/bermuda2.jpg",
+      "categoria": "niños",
+      "talla": "6 años"
+    },
+    {
+      "nombre": "Bermuda Niño",
+      "precio": "$65",
+      "imagen": "img/niños/bermuda3.jpg",
+      "categoria": "niños",
+      "talla": "6 años"
+    },
+    {
+      "nombre": "Bermuda Niño",
+      "precio": "$70",
+      "imagen": "img/niños/bermuda4.jpg",
+      "categoria": "niños",
+      "talla": "6 años"
+    },
+    {
+      "nombre": "Blusa Niña",
+      "precio": "$30",
+      "imagen": "img/niños/blusa-niña-pony.jpg",
+      "categoria": "niños",
+      "talla": "2 años"
+    },
+    {
+      "nombre": "Conjunto Niña",
       "precio": "$250",
-      "imagen": "img/blusas/blusa-nefra-rosas.jpg",
-      "categoria": "blusas",
-      "talla": "CH, M, G"
+      "imagen": "img/niños/conjunto-niña-1.jpg",
+      "categoria": "niños",
+      "talla": "8 años"
     },
     {
-      "nombre": "Pijamas ",
-      "precio": "$150",
-      "imagen": "img/chamarras/pijamas.jpg",
-      "categoria": "chamarras",
-      "talla": "CH, M, G"
+      "nombre": "Conjunto Niña",
+      "precio": "$90",
+      "imagen": "img/niños/conjunto-niña-2.jpg",
+      "categoria": "niños",
+      "talla": "5-6 años"
     },
     {
-      "nombre": "Sueter Azul",
-      "precio": "$320",
-      "imagen": "img/chamarras/sueter-azul.jpg",
-      "categoria": "chamarras",
-      "talla": "CH, M, G, EG"
+      "nombre": "Conjunto Niña",
+      "precio": "$90",
+      "imagen": "img/niños/conjunto-niña-3.jpg",
+      "categoria": "niños",
+      "talla": "5-6 años"
+    },
+    {
+      "nombre": "Conjunto Niña",
+      "precio": "$90",
+      "imagen": "img/niños/conjunto-niña-4.jpg",
+      "categoria": "niños",
+      "talla": "5-6 años"
+    },
+    {
+      "nombre": "Conjunto Niña",
+      "precio": "$90",
+      "imagen": "img/niños/conjunto-niña-5.jpg",
+      "categoria": "niños",
+      "talla": "5-6 años"
     },
     {
       "nombre": "Conjunto Niño",
       "precio": "$200",
       "imagen": "img/niños/conjunto-niño.jpg",
       "categoria": "niños",
-      "talla": "2, 4, 6, 8"
+      "talla": "5-6 años"
     },
     {
-      "nombre": "Pans niños",
-      "precio": "$200",
-      "imagen": "img/niños/pans-niños.jpg",
+      "nombre": "Pans Niño",
+      "precio": "$80",
+      "imagen": "img/niños/pans-niño-2.jpg",
       "categoria": "niños",
-      "talla": "2, 4, 6, 8, 10"
+      "talla": "5-6 años"
     },
     {
-      "nombre": "Shorts niños",
-      "precio": "$200",
-      "imagen": "img/niños/shorts-niños.jpg",
+      "nombre": "Pans Niño",
+      "precio": "$80",
+      "imagen": "img/niños/pans-niño-1.jpg",
       "categoria": "niños",
-      "talla": "2, 4, 6, 8, 10"
+      "talla": "5-6 años"
     },
     {
-      "nombre": "Sabanas",
-      "precio": "$200",
-      "imagen": "img/sabanas/sabanas.jpg",
+      "nombre": "Pans Niño",
+      "precio": "$80",
+      "imagen": "img/niños/pans-niño-3.jpg",
+      "categoria": "niños",
+      "talla": "5-6 años"
+    },
+
+
+    {
+      "nombre": "Cortina Puerta",
+      "precio": "$350",
+      "imagen": "img/sabanas/cortina-puerta.jpg",
       "categoria": "sabanas",
-      "talla": "Individual, Matrimonial, King Size"
+      "talla": "2.5 x 2 M"
     },
     {
-      "nombre": "Falda Negra",
-      "precio": "$200",
-      "imagen": "img/vestidos/falda-negra.jpg",
-      "categoria": "vestidos",
-      "talla": "CH, M, G"
+      "nombre": "Cortina Ventana",
+      "precio": "$180",
+      "imagen": "img/sabanas/cortina-ventana.jpg",
+      "categoria": "sabanas",
+      "talla": "1.5 x 1.5 M"
     },
     {
-      "nombre": "Falda Verde",
+      "nombre": "Cortina Ventana",
+      "precio": "$170",
+      "imagen": "img/sabanas/cortina-ventana-2.jpg",
+      "categoria": "sabanas",
+      "talla": "1 x 1.5 M"
+    },
+    {
+      "nombre": "Cubre Colchon",
+      "precio": "$350",
+      "imagen": "img/sabanas/cubre-colchon.jpg",
+      "categoria": "sabanas",
+      "talla": "King Size"
+    },
+    {
+      "nombre": "Sabana King Size",
+      "precio": "$380",
+      "imagen": "img/sabanas/sabana-king.jpg",
+      "categoria": "sabanas",
+      "talla": "King Size"
+    },
+    {
+      "nombre": "Sabana King Size",
+      "precio": "$580",
+      "imagen": "img/sabanas/sabana-king-2.jpg",
+      "categoria": "sabanas",
+      "talla": "King Size"
+    },
+    {
+      "nombre": "Sabana Estanpada",
       "precio": "$200",
+      "imagen": "img/sabanas/sabana-matrimonial-1.jpg",
+      "categoria": "sabanas",
+      "talla": "Matrimonial"
+    },
+    {
+      "nombre": "Sabana Estanpada",
+      "precio": "$200",
+      "imagen": "img/sabanas/sabana-matrimonial-2.jpg",
+      "categoria": "sabanas",
+      "talla": "Matrimonial"
+    },
+    
+
+
+
+
+
+
+    
+    {
+      "nombre": "Falda-Short ",
+      "precio": "$180",
+      "imagen": "img/shorts/faldashort-cafe.jpg",
+      "categoria": "shorts",
+      "talla": "M"
+    },
+    {
+      "nombre": "Falda-Short ",
+      "precio": "$180",
+      "imagen": "img/shorts/faldashort-negro.jpg",
+      "categoria": "shorts",
+      "talla": "M"
+    },
+    {
+      "nombre": "Bermuda Caballero ",
+      "precio": "$80",
+      "imagen": "img/shorts/short-hombre.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Bermuda Caballero ",
+      "precio": "$80",
+      "imagen": "img/shorts/short-hombre-3.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Bermuda Caballero ",
+      "precio": "$80",
+      "imagen": "img/shorts/short-hombre-2.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Short Levanta Pompa ",
+      "precio": "$100",
+      "imagen": "img/shorts/short-levanta-pompa.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Short Levanta Pompa ",
+      "precio": "$100",
+      "imagen": "img/shorts/short-levanta-pompa-2.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Short Levanta Pompa ",
+      "precio": "$100",
+      "imagen": "img/shorts/short-levanta-pompa-3.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Short Mezclilla ",
+      "precio": "$150",
+      "imagen": "img/shorts/short-mezclilla.jpg",
+      "categoria": "shorts",
+      "talla": "37"
+    },
+    {
+      "nombre": "Short Mezclilla ",
+      "precio": "$150",
+      "imagen": "img/shorts/short-negro-mezclilla.jpg",
+      "categoria": "shorts",
+      "talla": "37"
+    },
+
+    {
+      "nombre": "Short Tela ",
+      "precio": "$110",
+      "imagen": "img/shorts/short-tela.jpg",
+      "categoria": "shorts",
+      "talla": "M"
+    },
+    {
+      "nombre": "Short Tela ",
+      "precio": "$110",
+      "imagen": "img/shorts/short-tela-2.jpg",
+      "categoria": "shorts",
+      "talla": "CH"
+    },
+    {
+      "nombre": "Short Caballero ",
+      "precio": "$60",
+      "imagen": "img/shorts/short-tela-3.jpg",
+      "categoria": "shorts",
+      "talla": "Unitalla"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "nombre": "Falda Juvenil",
+      "precio": "$80",
       "imagen": "img/vestidos/falda-verde.jpg",
       "categoria": "vestidos",
-      "talla": "CH, M, G"
+      "talla": "CH"
     },
+
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/vestido-1.jpg",
+      "categoria": "vestidos",
+      "talla": "CH"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/vestido-2.jpg",
+      "categoria": "vestidos",
+      "talla": "M"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/vestido-3.jpg",
+      "categoria": "vestidos",
+      "talla": "CH"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$160",
+      "imagen": "img/vestidos/vestido-4.jpg",
+      "categoria": "vestidos",
+      "talla": "M"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$350",
+      "imagen": "img/vestidos/vestido-5.jpg",
+      "categoria": "vestidos",
+      "talla": "G"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/vestido-6.jpg",
+      "categoria": "vestidos",
+      "talla": "M"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/vestido-7.jpg",
+      "categoria": "vestidos",
+      "talla": "CH"
+    },
+    {
+      "nombre": "Vestido Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/vestido-8.jpg",
+      "categoria": "vestidos",
+      "talla": "XSCH"
+    },
+    {
+      "nombre": "Conjunto Dama",
+      "precio": "$200",
+      "imagen": "img/vestidos/conjunto-falda-blusa.jpg",
+      "categoria": "vestidos",
+      "talla": "M"
+    },
+
+
+
+
+
+
+
+
+
+
     {
       "nombre": "Calcetines",
-      "precio": "$200",
-      "imagen": "img/accesorios/calcetines.jpg",
-      "categoria": "accesorios",
-      "talla": "Talla única"
-    },
-    {
-      "nombre": "Mandiles",
-      "precio": "$200",
-      "imagen": "img/accesorios/mandil.jpg",
+      "precio": "$18",
+      "imagen": "img/accesorios/tines1.jpg",
       "categoria": "accesorios",
       "talla": "Unitalla"
     },
     {
-      "nombre": "Sombrillas",
-      "precio": "$200",
-      "imagen": "img/accesorios/sombrillas.jpg",
+      "nombre": "Calcetines",
+      "precio": "$18",
+      "imagen": "img/accesorios/tines2.jpg",
       "categoria": "accesorios",
-      "talla": "Tamaño estándar"
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Calcetines",
+      "precio": "$18",
+      "imagen": "img/accesorios/tines3.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Calcetines",
+      "precio": "$18",
+      "imagen": "img/accesorios/tines4.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Sombrilla Magica",
+      "precio": "$120",
+      "imagen": "img/accesorios/sombrilla-azul.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Sombrilla Magica",
+      "precio": "$120",
+      "imagen": "img/accesorios/sombrilla-verde.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pulsera Reloj",
+      "precio": "$80",
+      "imagen": "img/accesorios/pulsera-reloj.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pulsera Reloj",
+      "precio": "$80",
+      "imagen": "img/accesorios/pulsera-reloj-2.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pulsera Reloj",
+      "precio": "$80",
+      "imagen": "img/accesorios/pulsera-reloj-3.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    }, 
+    {
+      "nombre": "Pinzas de Depilar",
+      "precio": "$15",
+      "imagen": "img/accesorios/pinzas.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Mandil",
+      "precio": "$80",
+      "imagen": "img/accesorios/mandil1.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Removedor de Puntos Negros",
+      "precio": "$30",
+      "imagen": "img/accesorios/kit-granos.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Ligas Para Pelo",
+      "precio": "$8",
+      "imagen": "img/accesorios/ligas-pelo.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Ligas Para Pelo",
+      "precio": "$8",
+      "imagen": "img/accesorios/ligas-pelo-2.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Ligas Para Pelo",
+      "precio": "$8",
+      "imagen": "img/accesorios/ligas-pelo-3.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Liguitas Para Pelo",
+      "precio": "$10",
+      "imagen": "img/accesorios/liguitas-pelo.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Moño Mexicano",
+      "precio": "$20",
+      "imagen": "img/accesorios/moño-mexicano.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Moños Mexicanos",
+      "precio": "$20",
+      "imagen": "img/accesorios/moños-mexicanos.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Moños Mexicanos",
+      "precio": "$20",
+      "imagen": "img/accesorios/moños-mexicanos-2.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Moños Vino",
+      "precio": "$20",
+      "imagen": "img/accesorios/moños-vino.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+    {
+      "nombre": "Pinzas para Pelo",
+      "precio": "$20",
+      "imagen": "img/accesorios/pinzas-pelo.jpg",
+      "categoria": "accesorios",
+      "talla": "Unitalla"
+    },
+
+
+
+
+
+
+
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-1.jpg",
+      "categoria": "calzado",
+      "talla": "18"
+    }, 
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-2.jpg",
+      "categoria": "calzado",
+      "talla": "18"
+    },
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-3.jpg",
+      "categoria": "calzado",
+      "talla": "18"
+    },
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-6.jpg",
+      "categoria": "calzado",
+      "talla": "19"
+    },
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-4.jpg",
+      "categoria": "calzado",
+      "talla": "18"
+    },
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-5.jpg",
+      "categoria": "calzado",
+      "talla": "19"
+    },
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-6.jpg",
+      "categoria": "calzado",
+      "talla": "19"
+    },
+    {
+      "nombre": "Sandalias",
+      "precio": "$70",
+      "imagen": "img/calzado/sandalias-7.jpg",
+      "categoria": "calzado",
+      "talla": "19"
+    },
+
+    {
+      "nombre": "Zapatos",
+      "precio": "$120",
+      "imagen": "img/calzado/zapatos-caballero.jpg",
+      "categoria": "calzado",
+      "talla": "7"
+    },
+    {
+      "nombre": "Tennis",
+      "precio": "$120",
+      "imagen": "img/calzado/zapatos-caballero-2.jpg",
+      "categoria": "calzado",
+      "talla": "8"
     }
+    
   ]
   
