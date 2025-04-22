@@ -24,14 +24,7 @@
     "categoria": "blusas",
     "talla": "Unitalla"
   },
-  {
-    "id": "4",
-    "nombre": "Blusa Juvenil",
-    "precio": "$90",
-    "imagen": "img/blusas/blusa-cafe.webp",
-    "categoria": "blusas",
-    "talla": "Unitalla"
-  },
+
   {
     "id": "5",
     "nombre": "Blusa Juvenil",
@@ -273,22 +266,8 @@
 
 
 
-        {
-          "id": "30",
-          "nombre": "Bermuda Niño",
-          "precio": "$65",
-          "imagen": "img/niños/bermuda1.webp",
-          "categoria": "niños",
-          "talla": "6 años"
-        },
-        {
-          "id": "31",
-          "nombre": "Bermuda Niño",
-          "precio": "$65",
-          "imagen": "img/niños/bermuda2.webp",
-          "categoria": "niños",
-          "talla": "6 años"
-        },
+
+
         {
           "id": "32",
           "nombre": "Bermuda Niño",
@@ -577,22 +556,7 @@
           "categoria": "shorts",
           "talla": "32"
         },
-        {
-          "id": "62",
-          "nombre": "Short Tela ",
-          "precio": "$110",
-          "imagen": "img/shorts/short-tela.webp",
-          "categoria": "shorts",
-          "talla": "M"
-        },
-        {
-          "id": "63",
-          "nombre": "Short Tela ",
-          "precio": "$110",
-          "imagen": "img/shorts/short-tela-2.webp",
-          "categoria": "shorts",
-          "talla": "CH"
-        },
+
         {
           "id": "64",
           "nombre": "Short Caballero ",
