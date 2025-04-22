@@ -10,8 +10,10 @@ fetch("productos.json")
       btn.addEventListener("click", () => {
         botones.forEach(b => b.classList.remove("activo"));
         btn.classList.add("activo");
-
+      
         const categoria = btn.dataset.categoria;
+        registrarVista(`Categoría: ${categoria}`); // 👈 Aquí
+      
         if (categoria === "todos") {
           mostrarProductos(productos);
         } else {
@@ -19,6 +21,7 @@ fetch("productos.json")
           mostrarProductos(filtrados);
         }
       });
+      
     });
   });
   function mostrarProductos(productos) {
@@ -39,6 +42,10 @@ fetch("productos.json")
            Apartar por WhatsApp
         </a>
       `;
+      card.addEventListener("click", () => {
+        registrarVista(`Producto: ${p.nombre}`);
+      });
+      
   
       galeria.appendChild(card);
     });
@@ -76,3 +83,12 @@ toggleBtn.addEventListener("click", () => {
   toggleBtn.textContent = esOscuro ? "☀️" : "🌙";
   localStorage.setItem("modo", esOscuro ? "oscuro" : "claro");
 });
+
+
+function registrarVista(nombrePagina) {
+  gtag('event', 'page_view', {
+    page_title: nombrePagina,
+    page_location: window.location.href,
+    page_path: window.location.pathname
+  });
+}
