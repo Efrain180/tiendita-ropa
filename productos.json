@@ -567,7 +567,7 @@
           "precio": "$180",
           "imagen": "img/shorts/short-mezclilla.webp",
           "categoria": "shorts",
-          "talla": "37"
+          "talla": "30"
         },
         {
           "id": "61",
@@ -575,7 +575,7 @@
           "precio": "$180",
           "imagen": "img/shorts/short-negro-mezclilla.webp",
           "categoria": "shorts",
-          "talla": "37"
+          "talla": "32"
         },
         {
           "id": "62",
