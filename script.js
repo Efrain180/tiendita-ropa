@@ -29,22 +29,24 @@ fetch("productos.json")
       card.setAttribute("data-aos", "zoom-in");
   
       card.innerHTML = `
-  <img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onclick="abrirModal(this)" />
-  <h3>${p.nombre}</h3>
-  <p><strong>Precio:</strong> ${p.precio}</p>
-  <p><strong>Talla:</strong> ${p.talla || 'No especificada'}</p>
-  <a class="boton-whatsapp" target="_blank"
-     href="https://wa.me/5217658396857?text=${encodeURIComponent(`Hola! Estoy interesad@ en ${p.nombre}, su precio es ${p.precio}, talla: ${p.talla || 'No especificada'} - ${location.origin + location.pathname}`)}">
-     Apartar por WhatsApp
-  </a>
-`;
-
+        <img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onclick="abrirModal(this)" />
+        <h3>${p.nombre}</h3>
+        <p><strong>Precio:</strong> ${p.precio}</p>
+        <p><strong>Talla:</strong> ${p.talla || 'No especificada'}</p>
+        <p><strong>Id:</strong> ${p.id}</p> <!-- Muestra el ID en la pantalla -->
+        <a class="boton-whatsapp" target="_blank"
+           href="https://wa.me/5217658396857?text=${encodeURIComponent(`Hola! Estoy interesad@ en ${p.nombre} (Id: ${p.id}), su precio es ${p.precio}, talla: ${p.talla || 'No especificada'} - ${location.origin + location.pathname}`)}">
+           Apartar por WhatsApp
+        </a>
+      `;
+  
       galeria.appendChild(card);
     });
   
     // Este es el paso importante
     AOS.refresh(); // <- asegúrate que ya está cargado AOS (por eso se mueve el script arriba del tuyo)
   }
+  
   
   
 
