@@ -1,7 +1,8 @@
 const galeria = document.getElementById("galeria");
 const botones = document.querySelectorAll("nav button");
 
-fetch("productos.json")
+fetch("https://api.sheetbest.com/sheets/16e40fc8-cb02-48a7-9ef6-6e8d76a44d00")
+
   .then(res => res.json())
   .then(productos => {
     mostrarProductos(productos);
