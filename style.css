@@ -211,3 +211,64 @@ body.dark-mode .modal {
   0% { background-position: 0% center; }
   100% { background-position: 100% center; }
 }
+
+
+.modal-info {
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-contenido-info {
+  position: relative; /* 🔸 importante para posicionar la ❌ dentro */
+  background: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 90%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  animation: zoomIn 0.3s ease;
+}
+
+.modal-contenido-info h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.modal-contenido-info p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.cerrar-info {
+  position: absolute;
+  top: 10px;   /* 🔽 dentro del cuadro */
+  right: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #555;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+
+body.dark-mode .modal-contenido-info {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark-mode .modal-contenido-info h2 {
+  color: #f1f1f1;
+}
+
+body.dark-mode .cerrar-info {
+  color: #f1f1f1;
+}

@@ -93,3 +93,12 @@ function registrarVista(nombrePagina) {
     page_path: window.location.pathname
   });
 }
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  document.getElementById("modal-info").style.display = "flex";
+});
+
+function cerrarInfo() {
+  document.getElementById("modal-info").style.display = "none";
+}
