@@ -212,6 +212,11 @@ body.dark-mode .modal {
   100% { background-position: 100% center; }
 }
 
+body.dark-mode nav {
+  background-color: #1a1a1a;
+}
+
+
 
 .modal-info {
   position: fixed;
@@ -272,3 +277,109 @@ body.dark-mode .modal-contenido-info h2 {
 body.dark-mode .cerrar-info {
   color: #f1f1f1;
 }
+
+
+/* === MENÚ DESLIZABLE EN CELULARES === */
+nav {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  display: flex;
+  gap: 0.5rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE y Edge */
+}
+
+nav::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}
+
+nav button {
+  flex: 0 0 auto;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+/* Ajustes responsive si quieres que también se vea bien en desktop */
+@media (min-width: 768px) {
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}
+
+
+
+/*
+.banner-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.banner-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.banner {
+  min-width: 240px;
+  height: 130px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #7209b7, #560bad);
+  color: white;
+  padding: 12px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  scroll-snap-align: start;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.banner .descuento {
+  background: yellow;
+  color: black;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.banner .boton {
+  align-self: flex-start;
+  background: white;
+  color: #7209b7;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.banner .boton:hover {
+  background: #eee;
+}
+
+  */
+  
