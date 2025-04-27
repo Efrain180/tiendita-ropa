@@ -25,35 +25,61 @@ fetch("https://api.sheetbest.com/sheets/16e40fc8-cb02-48a7-9ef6-6e8d76a44d00")
       
     });
   });
+
+
+
+  function esProductoNuevo(fechaProducto) {
+    if (!fechaProducto) return false; // Si no hay fecha, no es nuevo
+  
+    const ahora = new Date();
+    const fecha = new Date(fechaProducto);
+    const diferenciaTiempo = ahora - fecha;
+    const diferenciaDias = diferenciaTiempo / (1000 * 60 * 60 * 24);
+  
+    return diferenciaDias <= 4;
+  }
   function mostrarProductos(productos) {
     galeria.innerHTML = "";
+  
+    productos.sort((a, b) => {
+      const fechaA = new Date(a.fecha);
+      const fechaB = new Date(b.fecha);
+      return fechaB - fechaA;
+    });
+  
     productos.forEach(p => {
       const card = document.createElement("div");
       card.className = "producto";
       card.setAttribute("data-aos", "zoom-in");
   
+      const nuevo = esProductoNuevo(p.fecha) ? '<span class="etiqueta-nuevo">¡Nuevo!</span>' : '';
+  
       card.innerHTML = `
-        <img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onclick="abrirModal(this)" />
+        <div class="imagen-container">
+          ${nuevo}
+          <img src="${p.imagen}" alt="${p.nombre}" loading="lazy" onclick="abrirModal(this)" class="imagen-producto" />
+        </div>
         <h3>${p.nombre}</h3>
         <p><strong>Precio:</strong> ${p.precio}</p>
         <p><strong>Talla:</strong> ${p.talla || 'No especificada'}</p>
-        <p><strong>Id:</strong> ${p.id}</p> <!-- Muestra el ID en la pantalla -->
+        <p><strong>Id:</strong> ${p.id}</p>
         <a class="boton-whatsapp" target="_blank"
            href="https://wa.me/5217658396857?text=${encodeURIComponent(`Hola! Estoy interesad@ en ${p.nombre} (Id: ${p.id}), su precio es ${p.precio}, talla: ${p.talla || 'No especificada'} - ${location.origin + location.pathname}`)}">
            Apartar por WhatsApp
         </a>
       `;
+  
       card.addEventListener("click", () => {
         registrarVista(`Producto: ${p.nombre}`);
       });
-      
   
       galeria.appendChild(card);
     });
   
-    // Este es el paso importante
-    AOS.refresh(); // <- asegúrate que ya está cargado AOS (por eso se mueve el script arriba del tuyo)
+    AOS.refresh();
   }
+  
+  
   
   
   
